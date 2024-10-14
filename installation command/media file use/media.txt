@@ -1,0 +1,11 @@
+MEDIA_ROOT = BASE_DIR/"media"
+MEDIA_URL = 'media/'
+
+egulo setting.py e gie korar pore urls.py te gie
+
+from django.conf import settings
+from django.corf.urls.static import static
+
+urlpatterns = [
+
+] + static(settings.MEDIA_URL , doccument_root = settings.MEDIA_ROOT)
