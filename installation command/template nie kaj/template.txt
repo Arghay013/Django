@@ -1,0 +1,14 @@
+1. settings.py e jete hobe
+
+2. templates e gie dirs er vitor BASE_DIR/"name"
+
+app er vitor die run koranor somoy
+views:
+from django.shortcuts import render
+def home(request):
+    return render(request,'first_app/index.html');
+dir:
+first_app/
+    templates/
+        first_app/
+            index.html

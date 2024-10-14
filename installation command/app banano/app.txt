@@ -1,0 +1,8 @@
+command: py manage.py startapp ao_name/
+         django-admin startapp app_name
+settings.py e gie app er nam likha lagbe
+urls add korte hobe include die
+
+
+project create
+command: django-admin startproject project_name

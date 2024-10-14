@@ -1,0 +1,16 @@
+views er vitro context likhe data pass korte hoy
+<p>time is: {{title}}</p>
+
+def home(request):
+    return render(request,'first_app/index.html',{'title':'Home'});
+
+how can i write code in templates
+--->
+Use {{ }} for displaying variables.
+Use {% %} for logic and control flow (if statements, loops).
+--->
+  {% if user.is_authenticated %}
+        <p>Welcome, {{ user.username }}!</p>
+    {% else %}
+        <p>Please log in.</p>
+    {% endif %}
